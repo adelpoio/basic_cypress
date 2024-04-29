@@ -1,29 +1,32 @@
-# Testes automatizados com Cypress - Básico
+# Cypress Automation Basics
+## Pré-Requisitos:
+> Node.js
+> npm (Node Package Manager)
+> Git (opcional, dependendo do método de obtenção do projeto)
 
-👋 Seja bem-vindo(a)!
+## Passos para Instalação das Dependências:
+> Clone o repositório do projeto do Cypress (caso você ainda não tenha o projeto):
+terminal 'git clone <URL_DO_REPOSITÓRIO>'
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+> Navegue até o diretório do projeto:
+terminal 'cd <NOME_DO_DIRETÓRIO_DO_PROJETO>'
 
-## O que você vai aprender
+## Instale as dependências do projeto utilizando npm:
+npm install
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+## Passos para Rodar os Testes:
+> Abra um terminal ou prompt de comando.
+> Navegue até o diretório do projeto do Cypress.
+> Execute o comando abaixo para abrir a interface do Cypress e rodar os testes:
+terminal 'npx cypress open'
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+> Na interface do Cypress, clique no arquivo de teste que deseja executar ou clique no botão "Run all specs" para executar todos os testes.
 
-## Vamos começar?
-
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
-
-___
-
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+## Descrição do projeto:
+> Este projeto de teste foi desenvolvido utilizando o framework de automação de testes Cypress.
+> Os testes são executados em um navegador real, permitindo a interação completa com a aplicação web.
+> Os testes são escritos em JavaScript e seguem uma estrutura de descrições (describe) e casos de teste (it).
+> Os testes abrangem uma variedade de cenários, incluindo preenchimento de formulários, seleção de elementos, validação de campos, entre outros.
+> Foram implementados testes para verificar tanto casos positivos quanto negativos, garantindo a robustez dos testes.
+> O projeto contém também exemplos de utilização de comandos customizados e manipulação de elementos como seleção de arquivo e drag-and-drop.
+> Com esta documentação, você deverá ser capaz de configurar o ambiente de teste, instalar as dependências necessárias e executar os testes automatizados utilizando o Cypress. Em caso de dúvidas ou problemas, consulte a documentação oficial do Cypress ou entre em contato com a equipe de desenvolvimento.
